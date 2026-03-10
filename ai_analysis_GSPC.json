@@ -1,0 +1,8 @@
+{
+  "signal": "HOLD",
+  "confidence": "7/10",
+  "summary": "Price above 200-SMA, below 50-SMA, neutral stance",
+  "expected_move": "+0.5%",
+  "sync_enabled": true,
+  "timestamp": "2026-03-10 12:34:29"
+}
