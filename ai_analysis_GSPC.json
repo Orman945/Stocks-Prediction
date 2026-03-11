@@ -1,8 +1,8 @@
 {
-  "signal": "HOLD",
-  "confidence": "7/10",
-  "summary": "Price above 200-SMA, below 50-SMA, neutral stance",
-  "expected_move": "+0.5%",
+  "signal": "SELL",
+  "confidence": "8/10",
+  "summary": "Price below 50-Day SMA, bearish momentum",
+  "expected_move": "-1.5%",
   "sync_enabled": true,
-  "timestamp": "2026-03-10 12:34:29"
+  "timestamp": "2026-03-11 01:52:06"
 }

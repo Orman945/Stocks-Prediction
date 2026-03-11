@@ -1,8 +1,8 @@
 {
   "signal": "HOLD",
   "confidence": "7/10",
-  "summary": "Price near resistance, stable fundamentals",
+  "summary": "Stable near 50-Day SMA, awaiting breakout.",
   "expected_move": "+0.5%",
   "sync_enabled": true,
-  "timestamp": "2026-03-10 12:34:37"
+  "timestamp": "2026-03-11 01:52:14"
 }
