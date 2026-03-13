@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import time
 from datetime import datetime
 import yfinance as yf
 from openai import OpenAI
@@ -143,6 +144,9 @@ Be data-driven and avoid generic advice."""
             json.dump(new_data, f, indent=2, ensure_ascii=False)
 
         print(f"[{datetime.now()}] Update successful for {symbol}! Signal: {new_data.get('signal')} - {new_data.get('expected_move')}")
+        
+        # Add delay between requests to avoid Yahoo Finance rate limits
+        time.sleep(2)
 
 if __name__ == "__main__":
     main()

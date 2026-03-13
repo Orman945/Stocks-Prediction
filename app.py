@@ -121,7 +121,7 @@ st.markdown("""
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
-@st.cache_data(ttl=60)
+@st.cache_data(ttl=3600)  # Increased TTL to 1 hour to avoid Yahoo Finance rate limits
 def fetch_ticker_data(symbol: str):
     ticker = yf.Ticker(symbol)
     info = ticker.info
